@@ -1,0 +1,193 @@
+{
+    "usuarios": {
+        "docente 1": {
+            "nombre": "docente 1",
+            "tipoUsuario": "complmentario",
+            "materia_asignada": "",
+            "horario": {
+                "mañana": {
+                    "dias": {
+                        "lunes": true,
+                        "martes": false,
+                        "miercoles": true,
+                        "jueves": false,
+                        "viernes": false
+                    },
+                    "lecciones": {
+                        "primera": {
+                            "hora": "07:00-07:40",
+                            "dia": "",
+                            "item": ""
+                        },
+                        "segunda": {
+                            "hora": "07:40-08:20",
+                            "dia": "",
+                            "item": ""
+                        },
+                        "receso_1": {
+                            "hora": "08:20-08:25"
+                        },
+                        "tercera": {
+                            "hora": "08:25-09:05",
+                            "dia": "",
+                            "item": ""
+                        },
+                        "cuarta": {
+                            "hora": "09:05-09:45",
+                            "dia": "",
+                            "item": ""
+                        },
+                        "receso_2": {
+                            "hora": "09:45-10:05"
+                        },
+                        "quinta": {
+                            "hora": "10:05-10:45",
+                            "dia": "",
+                            "item": ""
+                        },
+                        "sexta": {
+                            "hora": "10:45-11:25",
+                            "dia": "",
+                            "item": ""
+                        },
+                        "receso_3": {
+                            "hora": "11:25-11:30"
+                        },
+                        "setima": {
+                            "hora": "11:30-12:10",
+                            "dia": "",
+                            "item": ""
+                        }
+                    }
+                },
+                "tarde": {
+                    "dias": {
+                        "lunes": true,
+                        "martes": false,
+                        "miercoles": true,
+                        "jueves": false,
+                        "viernes": false
+                    },
+                    "lecciones": {
+                        "primera": {
+                            "hora": "12:30-01:10",
+                            "dia": "",
+                            "item": ""
+                        },
+                        "segunda": {
+                            "hora": "01:10-01:50",
+                            "dia": "",
+                            "item": ""
+                        },
+                        "receso_1": {
+                            "hora": "01:50-01:55"
+                        },
+                        "tercera": {
+                            "hora": "01:55-02:35",
+                            "dia": "",
+                            "item": ""
+                        },
+                        "cuarta": {
+                            "hora": "02:35-03:15",
+                            "dia": "",
+                            "item": ""
+                        },
+                        "receso_2": {
+                            "hora": "03:15-03:35"
+                        },
+                        "quinta": {
+                            "hora": "03:35-04:15",
+                            "dia": "",
+                            "item": ""
+                        },
+                        "sexta": {
+                            "hora": "04:15-04:55",
+                            "dia": "",
+                            "item": ""
+                        },
+                        "receso_3": {
+                            "hora": "04:55-05:00"
+                        },
+                        "setima": {
+                            "hora": "05:00-05:40",
+                            "dia": "",
+                            "item": ""
+                        }
+                    }
+                }
+            }
+        },
+        "docente 2": {
+            "nombre": "docente 2",
+            "tipoUsuario": "regular",
+            "horario": {}
+        },
+        "admin": {
+            "nombre": "admin",
+            "tipoUsuario": "admin",
+            "horario": {}
+        }
+    },
+    "materias": {
+        "ciencias": {
+            "nombre": "ciencias",
+            "complementaria": false
+        },
+        "matematicas": {
+            "nombre": "matematicas",
+            "complementaria": false
+        },
+        "ingles": {
+            "nombre": "ingles",
+            "complementaria": true
+        }
+    },
+    "secciones": {
+        "seccion 1": {
+            "nombre": "seccion 1",
+            "docente_asignado": "docente 1"
+        },
+        "seccion 2": {
+            "nombre": "seccion 2",
+            "docente_asignado": "docente 2"
+        }
+    },
+    "eventos": {
+        "evento 1": {
+            "nombre": "evento 1",
+            "descripcion": "desc",
+            "fecha": "22/22/22"
+        },
+        "evento 2": {
+            "nombre": "evento 2",
+            "descripcion": "desc",
+            "fecha": "22/22/22"
+        }
+    },
+    "inventario": {
+        "producto 1": {
+            "nombre": "prod",
+            "descripcion": "desc",
+            "registro_en": "",
+            "codigo": "0101",
+            "marca": "",
+            "modelo": "",
+            "serie": "",
+            "observaciones": "",
+            "modo_adquirido": "",
+            "responsable": ""
+        },
+        "producto 2": {
+            "nombre": "prod",
+            "descripcion": "desc",
+            "registro_en": "",
+            "codigo": "0101",
+            "marca": "",
+            "modelo": "",
+            "serie": "",
+            "observaciones": "",
+            "modo_adquirido": "",
+            "responsable": ""
+        }
+    }
+}

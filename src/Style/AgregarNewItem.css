@@ -1,0 +1,28 @@
+.container .row .nuevo-item {
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  margin-bottom: 44px;
+}
+.container .row .nuevo-item .title {
+  background: rgba(62, 143, 145, 0.13);
+  color: #376591;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.container .row .nuevo-item .form-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #376591;
+}
+.container .row .nuevo-item .form-control {
+  background: #fffcfc;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  width: 262px;
+  height: 35px;
+}

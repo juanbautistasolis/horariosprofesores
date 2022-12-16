@@ -1,0 +1,12 @@
+.input-wrapper > button {
+  border: none;
+  background: transparent;
+  margin-left: -35px;
+  color: #4a83a69e;
+  width: 35px;
+  height: 35px;
+}
+
+.form-select {
+  width: 265px;
+}

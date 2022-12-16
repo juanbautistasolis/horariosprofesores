@@ -1,0 +1,105 @@
+.principalHorario {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.tituloHorario {
+  margin-top: 30px;
+  width: 20%;
+  height: 50px;
+  margin-left: 40%;
+  background: #376591;
+  color: white;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.nombrehorario {
+  font-family: "Poppins";
+  color: #fff;
+  font-size: 30px;
+  width: 100%;
+  text-align: left;
+  background: #376591;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+.go-back-arrow {
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+
+.head-wrapper {
+  background: #cdd6e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 5px 5px;
+}
+
+.head-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  color: #376591;
+}
+/* .pdf-btn {
+  font-family: "Poppins";
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  font-style: normal;
+  border: none;
+  background: #31588a;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+} */
+.filas {
+  display: grid;
+  margin-left: 1%;
+  margin-right: 1%;
+  grid-template-columns: repeat(6, 1fr);
+  height: 50px;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.principal {
+  background: #376591;
+  color: white;
+  cursor: hand;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #30303059;
+}
+
+.secundaria {
+  cursor: pointer;
+  cursor: hand;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #30303059;
+}
+
+.secundaria:hover {
+  background: rgb(238, 235, 235);
+}
+
+.receso {
+  color: black;
+}
+
+.rfinal {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #30303059;
+  color: black;
+}

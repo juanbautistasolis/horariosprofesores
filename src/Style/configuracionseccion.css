@@ -1,0 +1,52 @@
+.dialogoconfiguracion {
+  width: 100%;
+  bottom: 30px;
+  height: 250vh;
+  background: rgba(128, 128, 128, 0.425);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* .boxConfiguration {
+} */
+
+.block {
+  left: 90%;
+}
+
+.customOverlay {
+  background: rgba(36, 123, 160, 0.7);
+}
+
+.aceptar {
+  left: 50%;
+  margin-top: 50px;
+}
+
+.react-responsive-modal-modal {
+  font-size: 10px;
+  background: rgba(224, 221, 221, 0.945);
+  background: #fff;
+  border-radius: 1%;
+  box-shadow: 0px 0px 30px 0px rgba(117, 116, 117, 1);
+}
+
+.combobox {
+  display: grid;
+  grid-template-columns: 50%, 50%;
+}
+
+.textConfig {
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  color: #376591;
+}
