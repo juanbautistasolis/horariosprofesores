@@ -66,6 +66,7 @@ header {
 .secondComponentAside {
   background: #ffff;
   overflow: auto;
+  margin-bottom: 3%;
 }
 
 .asideComponent {
