@@ -5,7 +5,6 @@ import "../Style/AgregarNewItem.css";
 import { Context } from "../store/appContext";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
-
 const AgregarNewItem = ({
   title,
   nuevoItem,
