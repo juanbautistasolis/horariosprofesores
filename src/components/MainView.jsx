@@ -44,6 +44,14 @@ const MainView = ({ children }) => {
             <p className="mb-0">Inicio</p>
           </div>
           <div
+            id="inicio"
+            className="asideComponent d-flex flex-column justify-content-center align-items-center"
+            onClick={() => navigate("/inicio")}
+          >
+            <i className="small material-icons center">home</i>
+            <p className="mb-0">Inicio</p>
+          </div>
+          <div
             id="secciones"
             className="asideComponent d-flex flex-column justify-content-center align-items-center"
             onClick={() => navigate("/inicio/secciones")}
