@@ -21,12 +21,14 @@ const getState = ({ setStore }) => {
           setStore({ usuarios: data });
         });
       },
-      updateUsuarios: (item) => {
-        const { itemName, edit } = item;        
+      updateUsuarios: (item) => {        
+        const { itemName, edit } = item;
         update(ref(db, `${itemName}/${edit.id}`), {
           nombre: edit.nombre,
           tipo_usuario: edit.tipo_usuario,
           horario: edit.horario,
+          password: edit.password,
+          correo: edit.correo
         });
       },
       /*========Materias========*/
